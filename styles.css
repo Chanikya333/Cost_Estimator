@@ -1,16 +1,10 @@
 body {
   background-color: rgb(233, 223, 255);
-}
-.flex {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
-.flexrow {
-  display: flex;
-  flex-direction: row;
-}
+
 main {
   width: 60%;
   border-radius: 10px;
@@ -19,15 +13,35 @@ main {
 h1 {
   color: rgb(85, 5, 160);
 }
-navbar {
-  border-bottom: 1px solid rgb(183, 176, 189);
+.nav {
+  border-bottom: 2px solid rgb(183, 176, 189);
   width: 100%;
 }
-.flex ul li {
+.nav ul {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-.flex ul li a {
+#team{
   text-transform: uppercase;
   text-decoration: none;
-  text-align: space-around;
+  font-size:1em;
+  font-weight: bold;
+  color:rgb(85, 5, 160);
 }
+.nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size:1em;
+  font-weight: bold;
+  color:rgb(200, 175, 255);
+}
+.nav ul li a:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size:1em;
+  font-weight: bold;
+  color:rgb(200, 175, 255);
+}
+
