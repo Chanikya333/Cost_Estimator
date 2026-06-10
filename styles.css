@@ -139,21 +139,24 @@ h1 {
 }
 .bar{
   /* margin-top: 20px; */
-  height: 12px;
+  height: 13px;
   width: 90%;
   margin:20px auto 0px auto;
   border: 1px solid rgb(165, 165, 165);
   border-radius: 12px;
   position:relative;
   background-color: rgb(233, 239, 244);
-  background: linear-gradient(to right, rgb(84, 21, 210),rgb(74, 53, 232),rgb(176, 125, 247));
+  background: linear-gradient(to right, rgb(9, 9, 9)20%,rgb(74, 53, 232)50%,transparent 50%);
 }
 .pointer{
-position:absoulte;
-width:31%;
-height:16px;
-background-color:red;
-top:-50px;
+position:absolute;
+width:15px;
+height:15px;
+background-color:rgb(85, 5, 160);
+top:-2.5px;
+left:49%;
+border:2px solid rgb(242, 241, 243);
+border-radius: 100px;
 
 
 }
@@ -164,7 +167,14 @@ top:-50px;
   justify-content: space-between;
   margin:0 auto;
   margin-right: 36px;
-  padding-top: 2px;
+  padding-top: 10px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border:2px solid red;
 }
 
 
