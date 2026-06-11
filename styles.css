@@ -109,7 +109,7 @@ h1 {
   font-size: 1em;
   text-align: center;
 }
-.sessions{
+.sessions {
   text-transform: uppercase;
   margin: 0 auto;
   display: flex;
@@ -121,60 +121,108 @@ h1 {
   border-radius: 5px;
   max-width: 45%;
 }
-.sessions > p{
+.sessions > p {
   font-size: 0.7em;
   font-weight: bold;
   margin-bottom: 0px;
 }
-.sessions p:nth-child(2){
+.sessions p:nth-child(2) {
   font-size: 3.5em;
-  margin:0 auto;
+  margin: 0 auto;
   max-width: 300px;
 }
-.desc{
-  margin:0 auto;
+.desc {
+  margin: 0 auto;
   max-width: 90%;
   line-height: 30px;
   font-weight: 500;
 }
-.bar{
+.bar {
   /* margin-top: 20px; */
   height: 13px;
   width: 90%;
-  margin:20px auto 0px auto;
+  margin: 20px auto 0px auto;
   border: 1px solid rgb(165, 165, 165);
   border-radius: 12px;
-  position:relative;
+  position: relative;
   background-color: rgb(233, 239, 244);
-  background: linear-gradient(to right, rgb(9, 9, 9)20%,rgb(74, 53, 232)50%,transparent 50%);
+  background: linear-gradient(
+    to right,
+    rgb(9, 9, 9) 20%,
+    rgb(74, 53, 232) 50%,
+    transparent 50%
+  );
 }
-.pointer{
-position:absolute;
-width:15px;
-height:15px;
-background-color:rgb(85, 5, 160);
-top:-2.5px;
-left:49%;
-border:2px solid rgb(242, 241, 243);
-border-radius: 100px;
-
-
+.pointer {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(85, 5, 160);
+  top: -2.5px;
+  left: 49%;
+  border: 2px solid rgb(242, 241, 243);
+  border-radius: 100px;
 }
-.range{
+.range {
   color: rgb(114, 111, 116);
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin:0 auto;
+  margin: 0 auto;
   margin-right: 36px;
   padding-top: 10px;
 }
-.cards{
+.cards {
+  margin: 20px auto 20px auto;
+  width: 90%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  border:2px solid red;
+  flex-grow: 1;
+  /* border: 2px solid rgb(230, 219, 253); */
+
+  border-radius: 10px;
+  text-transform: capitalize;
 }
-
-
+.card1 {
+  background-color: rgb(247, 245, 251);
+  /* height: 0px; */
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(230, 219, 253);
+  width: 50%;
+  border-radius: 10px;
+  flex-wrap: center;
+}
+.card2 {
+  background-color: rgb(247, 245, 251);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(230, 219, 253);
+  width: 50%;
+  max-height: 400px;
+  border-radius: 10px;
+}
+.discount {
+  color: white;
+  background-color: rgb(85, 5, 160);
+  max-height: 2%;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  border-radius: 10px 10px 0 0;
+}
+.footer {
+  /* border: 2px solid red; */
+  color: white;
+  background-color: rgb(94, 23, 237);
+  padding: 10px 0;
+  width: 60%;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 10px;
+}
